@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*CORES*/
+:root{
+    --colorA: #3f1705da;
+    --colorB: #DD5323;
+    --colorC: #FF8600;
+
+}
+
+/*LANDING-PAGE*/
+.landing-page{
+    position: relative;
+    width: 100vw;
+}
+
+.logo{
+    max-width: 50%;
+    position: absolute;
+    right: 18%; 
+    margin-right: -300px; 
+    top: 45%; 
+    margin-top: -80px;
+}
+
+.text-apresentation{
+    position: absolute;
+    left: 45%; 
+    margin-left: 180px; 
+    top: 70%; 
+    margin-top: -80px;
+    text-align: center;
+    width: 32%;
+}
+
+/*NAVBAR*/
+.navbar{
+    position: absolute;
+    right: 10%; 
+    margin-left: -120px; 
+    top: 15%; 
+    margin-top: -75px;
+}
+.nav-link{
+    margin-top: 23px;
+    margin-right: 2px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+#navbar-items .nav-item{
+    margin: .1em;
+
+}
+/*NAVEGAÇÃO*/
+.navigation{
+    padding: 30px;
+}
+h2{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/*ALFABETO*/
+#alphabet{
+    text-align: center;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: var(--colorC);
+    padding: 10px;
+
+
+}
+.letter-menu{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1cm;
+    font-size: 38px;
+    font-family: 'Oi', cursive;
+    cursor: pointer;
+}
+.letter-menu:hover{
+    color: var(--colorB);
+
+}
+
+/*CONCEITOS*/
+.container-fluid{
+    padding: 0;
+}
+.concepts{
+    color: white;
+    padding: 30px;
+}
+.concepts .row{
+    padding: 0 6em;
+}
+h3{
+    font-size: 34px;
+    font-family: 'Oi', cursive;
+}
+.word{
+    color: white;
+    list-style: none;
+    font-size: 28px;
+    margin-bottom: .6em;
+}
+#concepts-a, #concepts-d{
+    background-color: var(--colorA);
+}
+#concepts-b, #concepts-e{
+    background-color: var(--colorB);
+}
+#concepts-c{
+    background-color: var(--colorC);
+}
+
+.definition{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+.definition.active{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transition: .15s ease-in-out;
+}
+
+.word:hover{
+    cursor: pointer;
+}
+
