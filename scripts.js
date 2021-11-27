@@ -1,4 +1,4 @@
-
+/*
 const Description = {
     open(){
         //abrir modal
@@ -17,6 +17,21 @@ const Description = {
 
     }
 }
+*/
+
+document.getElementById('word').addEventListener("click", function (){
+  //o evento de clique está sendo escutado
+  //variáveis para atribuir as imagens
+  let imagem = document.getElementById('seta').src;
+  let setaCima = "https://cdn-icons-png.flaticon.com/512/32/32323.png";
+  let setaBaixo = "https://cdn-icons-png.flaticon.com/512/32/32195.png";
+  //condição de clique
+  if(imagem === setaBaixo){
+    document.getElementById('seta').src = setaCima;
+  } else {
+    document.getElementById('seta').src = setaBaixo;
+}
+})
 
 
 /*

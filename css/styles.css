@@ -114,7 +114,7 @@ h3{
     font-family: 'Oi', cursive;
 }
 
-.word{
+#word{
     color: white;
     list-style: none;
     font-size: 28px;
@@ -131,19 +131,7 @@ h3{
     background-color: var(--colorC);
 }
 
-.definition{
-    opacity: 0;
-    visibility: hidden;
-    display: none;
-}
-.definition.active{
-    opacity: 1;
-    visibility: visible;
-    display: block;
-    transition: .15s ease-in-out;
-}
-
-.word:hover{
+#word:hover{
     cursor: pointer;
 }
 
