@@ -30,8 +30,8 @@ document.getElementById('word').addEventListener("click", function (){
     document.getElementById('seta').src = setaCima;
   } else {
     document.getElementById('seta').src = setaBaixo;
-}
-})
+};
+});
 
 
 /*

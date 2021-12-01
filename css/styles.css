@@ -28,7 +28,7 @@
     margin-top: -80px;
 }
 
-.text-apresentation{
+.apresentation-text{
     position: absolute;
     left: 45%; 
     margin-left: 180px; 
@@ -114,7 +114,7 @@ h3{
     font-family: 'Oi', cursive;
 }
 
-#word{
+#word, .word{
     color: white;
     list-style: none;
     font-size: 28px;
@@ -131,7 +131,7 @@ h3{
     background-color: var(--colorC);
 }
 
-#word:hover{
+#word:hover, .word:hover{
     cursor: pointer;
 }
 
