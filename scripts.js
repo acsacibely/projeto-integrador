@@ -17,7 +17,7 @@ const Description = {
 
     }
 }
-*/
+
 document.getElementById('word').addEventListener("click", function (){
   //o evento de clique está sendo escutado
   //variáveis para atribuir as imagens
@@ -31,6 +31,12 @@ document.getElementById('word').addEventListener("click", function (){
     document.getElementById('seta').src = setaBaixo;
 };
 });
+*/
+
+$(".abrir_imagem").click(function(){
+  $(this).toggleClass("fechar") ; 
+ })
+
 
 
 /*
