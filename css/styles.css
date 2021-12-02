@@ -28,30 +28,32 @@ header{
 .logo{
     max-width: 50%;
     position: absolute;
-    right: 18%; 
-    margin-right: -19%; 
-    top: 45%; 
-    margin-top: -5%;
+    left: 50%;
+    right: -19%; 
+    top: 35%; 
+  
+
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .apresentation-text{
     position: absolute;
     left: 45%; 
     width: 39%;
-    margin-left: 9%;  
-    top: 70%; 
-    margin-top: -5%;
+    left: 52%;  
+    top: 60%; 
     font-size: 1em;
     font-weight: 600;
-
 }
 
 /*NAVBAR*/
 .navbar{
     position: absolute;
     right: 16%; 
-    margin-left: 9%; 
-    top: 10%; 
+    left: 59%; 
+    top: 10%;
 }
 
 .nav-item{
@@ -148,4 +150,27 @@ footer .container{
 }
 footer img {
     width: 90%;
+}
+
+
+/*responsividade*/
+@media screen and (min-width: 720px){
+ 
+}
+@media screen and (max-width: 1000px){
+    .apresentation-text{
+        font-size: 14px;
+    }
+    .letter-menu{
+        font-size: 25px;
+    }
+}
+/*para telas acima de 1480px*/
+@media screen and (min-width: 1980px){
+    .navbar{
+        font-size: 34px;
+    }
+    .apresentation-text{
+        font-size: 1.5em;
+    }
 }

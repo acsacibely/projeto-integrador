@@ -18,7 +18,6 @@ const Description = {
     }
 }
 */
-
 document.getElementById('word').addEventListener("click", function (){
   //o evento de clique está sendo escutado
   //variáveis para atribuir as imagens
