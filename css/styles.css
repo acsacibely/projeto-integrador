@@ -10,12 +10,18 @@
     --colorA: #3f1705da;
     --colorB: #DD5323;
     --colorC: #FF8600;
+}
 
+body{
+    width: 100vw;
+}
+
+header{
+    position: relative;
 }
 
 /*LANDING-PAGE*/
 .landing-page{
-    position: relative;
     width: 100vw;
 }
 
@@ -25,34 +31,33 @@
     right: 18%; 
     margin-right: -19%; 
     top: 45%; 
-    margin-top: -80px;
+    margin-top: -5%;
 }
 
 .apresentation-text{
     position: absolute;
     left: 45%; 
-    margin-left: 180px; 
+    width: 39%;
+    margin-left: 9%;  
     top: 70%; 
-    margin-top: -80px;
+    margin-top: -5%;
+    font-size: 1em;
+    font-weight: 600;
 
-    width: 32%;
 }
 
 /*NAVBAR*/
 .navbar{
     position: absolute;
     right: 16%; 
-    margin-left: -120px; 
-    top: 15%; 
-    margin-top: -75px;
+    margin-left: 9%; 
+    top: 10%; 
 }
 
-.nav-link{
+.nav-item{
     margin-top: 2px;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: bold;
-    justify-content: space-between;
-
 }
 
 .nav-item:hover{
