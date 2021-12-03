@@ -12,9 +12,6 @@
     --colorC: #FF8600;
 }
 
-body{
-    width: 100vw;
-}
 
 header{
     position: relative;
@@ -22,7 +19,7 @@ header{
 
 /*LANDING-PAGE*/
 .landing-page{
-    width: 100vw;
+    width: 100%;
 }
 
 .logo{
@@ -149,13 +146,16 @@ footer{
 footer .container{
     color: #fff;
     padding: 3em 3em .6em 3em;
-    justify-content: justify;
-    align-items: justify;
+   
+}
+
+.footer-text {
+    text-align: justify;
 }
 
 footer p {
     text-align: center;
-    font-size: .9em
+    font-size: .9em;
 }
 
 footer img{
@@ -169,21 +169,21 @@ footer .img{
 
 
 .abrir_imagem{
-    padding: 0px 0 5px 40px;
+    padding: 0px 0 5px 30px;
     list-style: none;
     background-image: url("../img/seta-baixo.png");
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 25px;
+    background-size: 23px;
 }
 
 .abrir_imagem.fechar{
-    padding: 0px 0 5px 40px;
+    padding: 0px 0 5px 30px;
     list-style: none;
     background-image: url("../img/seta-cima.png");
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 25px;
+    background-size: 23px;
 }
 
 
