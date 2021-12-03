@@ -12,56 +12,52 @@
     --colorC: #FF8600;
 }
 
-
 header{
     position: relative;
 }
 
-/*LANDING-PAGE*/
-.landing-page{
-    width: 100%;
+/*NAVBAR*/
+.navbar{
+    position: absolute; 
+    left: 59%; 
+    top: 10%;
+}
+
+.nav-link{
+    margin-top: 2px;
+    font-size: 1.3em;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.nav-link:hover{
+    border-radius: 14px;
+    background-color: var(--colorC);
+    color:#fff;
+}
+
+.btn-close{
+    display: none;
 }
 
 .logo{
     max-width: 50%;
     position: absolute;
     left: 50%;
-    right: -19%; 
     top: 35%; 
-  
-
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 0px;
 }
 
 .apresentation-text{
-    position: absolute;
-    left: 45%; 
-    width: 30%;
-    left: 56%;  
+    position: absolute; 
+    width: 34%;
+    left: 54.5%;  
     top: 59%; 
     font-size: 1em;
-
+    text-align: justify;
 }
 
-/*NAVBAR*/
-.navbar{
-    position: absolute;
-    right: 16%; 
-    left: 56%; 
-    top: 10%;
-}
-
-.nav-item{
-    margin-top: 2px;
-    font-size: 1.3em;
-
-}
-
-.nav-item:hover{
-    border-radius: 15px;
-    background-color: var(--colorC);
+/*LANDING-PAGE*/
+.landing-page{
+    width: 100%;
 }
 
 /*NAVEGAÇÃO*/
@@ -73,23 +69,23 @@ header{
 h2{
     margin-bottom: 1em;
     text-align: center;
-    color: white;
+    color: #fff;
 }
 
 /*ALFABETO*/
 #alphabet{
     text-align: center;
-    border: 5px solid;
+    border: 5px 1px solid;
     border-radius: 40px;
     background-color: var(--colorC);
     padding: 10px;
-
-
 }
+
 .letter-menu{
-    color: white;
+    color: #fff;
     text-decoration: none;
-    letter-spacing: 1cm;
+    text-align: center;
+    letter-spacing: 1em;
     font-size: 38px;
     font-family: 'Oi', cursive;
     cursor: pointer;
@@ -105,7 +101,7 @@ h2{
 }
 
 .concepts{
-    color: white;
+    color: #fff;
     padding: 30px;
 
 }
@@ -119,7 +115,7 @@ h3{
 }
 
 .word{
-    color: white;
+    color: #fff;
     list-style: none;
     font-size: 28px;
     margin-bottom: .6em;
@@ -129,24 +125,24 @@ h3{
     cursor: pointer;
 }
 
-#concepts-a, #concepts-d{
+#concepts-a, #concepts-d, #concepts-g, #concepts-j, #concepts-m, #concepts-p, #concepts-s, #concepts-v, #concepts-y{
     background-color: var(--colorA);
 }
-#concepts-b, #concepts-e{
+#concepts-b, #concepts-e, #concepts-h, #concepts-k, #concepts-n, #concepts-q, #concepts-t, #concepts-w, #concepts-z{
     background-color: var(--colorB);
 }
-#concepts-c{
+#concepts-c, #concepts-f, #concepts-i, #concepts-l, #concepts-o, #concepts-r, #concepts-u, #concepts-x{
     background-color: var(--colorC);
 }
 
+/*RODAPÉ*/
 footer{
     background-color: rgb(44, 43, 43);
 }
 
 footer .container{
     color: #fff;
-    padding: 3em 3em .6em 3em;
-   
+    padding: 3em 3em .6em 3em;  
 }
 
 .footer-text {
@@ -167,7 +163,7 @@ footer .img{
     text-align: center;
 }
 
-
+/*TOGGLE*/
 .abrir_imagem{
     padding: 0px 0 5px 30px;
     list-style: none;
@@ -186,11 +182,7 @@ footer .img{
     background-size: 23px;
 }
 
-
-/*responsividade*/
-@media screen and (min-width: 720px){
- 
-}
+/*RESPONSIVIDADE*/
 @media screen and (max-width: 1000px){
     .apresentation-text{
         font-size: 14px;
@@ -198,9 +190,12 @@ footer .img{
     .letter-menu{
         font-size: 25px;
     }
+    footer img{
+        width: 35%;
+    }
 }
-/*para telas acima de 1480px*/
-@media screen and (min-width: 1980px){
+
+@media (min-width: 1980px){
     .navbar{
         font-size: 34px;
     }
@@ -208,3 +203,48 @@ footer .img{
         font-size: 1.5em;
     }
 }
+@media (max-width: 800px){
+    .apresentation-text{
+        font-size: .7em;
+    }
+    
+}
+
+/*SIDEBAR*/
+
+@media (max-width: 990px) {
+    .navbar{
+        left: 88%; 
+        top: 11%;
+    }
+
+    .btn-close{
+        padding: 5% 0;
+        display: block;
+        color: black;
+    }
+
+    .bi-x-lg::before {
+        display:none;
+    }
+    
+    .offcanvas-collapse {
+      position: fixed;
+      z-index: 1;
+      top: 0; /* Height of navbar */
+      bottom: 0;
+      left: 100%;
+      width: 50%;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #dd5123;
+      transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+      visibility: visible;
+      transform: translateX(-100%);
+    }
+  }
+
