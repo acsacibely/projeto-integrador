@@ -218,6 +218,11 @@ footer .img{
         top: 11%;
     }
 
+    .navbar-nav .nav-link {
+        color:#fff;
+        padding-left: 10px;
+    }
+
     .btn-close{
         padding: 5% 0;
         display: block;
@@ -239,7 +244,7 @@ footer .img{
       padding-left: 1rem;
       overflow-y: auto;
       visibility: hidden;
-      background-color: #dd5123;
+      background-color: var(--colorB);
       transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
     }
     .offcanvas-collapse.open {
