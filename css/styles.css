@@ -41,25 +41,25 @@ header{
 .apresentation-text{
     position: absolute;
     left: 45%; 
-    width: 39%;
-    left: 52%;  
-    top: 60%; 
+    width: 30%;
+    left: 56%;  
+    top: 59%; 
     font-size: 1em;
-    font-weight: 600;
+
 }
 
 /*NAVBAR*/
 .navbar{
     position: absolute;
     right: 16%; 
-    left: 59%; 
+    left: 56%; 
     top: 10%;
 }
 
 .nav-item{
     margin-top: 2px;
     font-size: 1.3em;
-    font-weight: bold;
+
 }
 
 .nav-item:hover{
@@ -142,16 +142,31 @@ h3{
     background-color: var(--colorC);
 }
 
+footer{
+    background-color: rgb(44, 43, 43);
+}
 
 footer .container{
-    padding: 2em;
+    color: #fff;
+    padding: 3em 3em .6em 3em;
+    justify-content: justify;
+    align-items: justify;
+}
+
+footer p {
+    text-align: center;
+    font-size: .9em
+}
+
+footer img{
+    width: 20%;
+}
+
+footer .img{
     justify-content: center;
-    align-items: center;
-    font-size: 28px;
+    text-align: center;
 }
-footer img {
-    width: 90%;
-}
+
 
 .abrir_imagem{
     padding: 0px 0 5px 40px;
@@ -159,7 +174,7 @@ footer img {
     background-image: url("../img/seta-baixo.png");
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 34px;
+    background-size: 25px;
 }
 
 .abrir_imagem.fechar{
@@ -168,7 +183,7 @@ footer img {
     background-image: url("../img/seta-cima.png");
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 34px;
+    background-size: 25px;
 }
 
 
