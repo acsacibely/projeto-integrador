@@ -17,7 +17,7 @@ document.getElementById('word').addEventListener("click", function (){
 
 //TOGGLE
 $(".abrir_imagem").click(function(){
-  $(this).toggleClass("fechar") ; 
+  $(this).toggleClass("fechar"); 
 });
 
 
