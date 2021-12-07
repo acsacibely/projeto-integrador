@@ -40,3 +40,24 @@ $(".abrir_imagem").click(function(){
     offCanvas.classList.remove("open");
   })
 })();
+
+//Função em construção para o bug das setinhas
+/*
+if($(".word").hasClass('fechar')){
+  $('.word').removeClass('fechar')
+}else{
+ $('.word').addClass('fechar')
+}
+
+
+(function main() {
+  const hello = document.querySelector('[aria-expanded]')?.getAttribute('aria-expanded');
+  console.log(hello);
+
+if (hello === 'true'){
+  $("li").removeClass("fechar");
+} else {
+  console.log('ta tudo fechado feia');
+};
+})();
+*/
