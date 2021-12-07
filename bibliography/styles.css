@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color:#fff;
+}
+
+/*CORES*/
+:root{
+    --colorA: #3f1705da;
+    --colorB: #DD5323;
+    --colorC: #FF8600;
+}
+
+.navbar-brand img{
+    width: 25%;
+}
+
+body{
+    background-color: #dd5123fd;
+}
+.nav-link{
+    color:#fff;
+    font-size: 1.4em;
+}
+
+.nav-link:hover{
+    color:#000;
+}
+
+.btn-close{
+    display: none;
+}

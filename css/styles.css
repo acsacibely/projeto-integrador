@@ -30,9 +30,10 @@ header{
 }
 
 .nav-link:hover{
-    border-radius: 14px;
+    border-radius: 15px;
     background-color: var(--colorC);
     color:#fff;
+
 }
 
 .btn-close{
@@ -112,6 +113,10 @@ h2{
 h3{
     font-size: 34px;
     font-family: 'Oi', cursive;
+}
+
+.suggestion{
+    color:#fff;
 }
 
 .word{
@@ -226,13 +231,10 @@ footer .img{
     .btn-close{
         padding: 5% 0;
         display: block;
-        color: black;
     }
 
-    .bi-x-lg::before {
-        display:none;
-    }
-    
+
+
     .offcanvas-collapse {
       position: fixed;
       z-index: 1;
