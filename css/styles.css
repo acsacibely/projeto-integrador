@@ -19,7 +19,7 @@ header{
 /*NAVBAR*/
 .navbar{
     position: absolute; 
-    left: 53%; 
+    left: 55%; 
     top: 10%;
 }
 
@@ -87,7 +87,7 @@ h2{
     text-decoration: none;
     text-align: center;
     letter-spacing: 1em;
-    font-size: 38px;
+    font-size: 2.3em;
     font-family: 'Oi', cursive;
     cursor: pointer;
 }
@@ -106,6 +106,7 @@ h2{
     padding: 30px;
 
 }
+
 .concepts .row{
     padding: 0 6em;
 }
@@ -187,36 +188,7 @@ footer .img{
     background-size: 23px;
 }
 
-/*RESPONSIVIDADE*/
-@media screen and (max-width: 1000px){
-    .apresentation-text{
-        font-size: 14px;
-    }
-    .letter-menu{
-        font-size: 25px;
-    }
-    footer img{
-        width: 35%;
-    }
-}
-
-@media (min-width: 1980px){
-    .navbar{
-        font-size: 34px;
-    }
-    .apresentation-text{
-        font-size: 1.5em;
-    }
-}
-@media (max-width: 800px){
-    .apresentation-text{
-        font-size: .7em;
-    }
-    
-}
-
 /*SIDEBAR*/
-
 @media (max-width: 990px) {
     .navbar{
         left: 88%; 
@@ -253,5 +225,95 @@ footer .img{
       visibility: visible;
       transform: translateX(-100%);
     }
-  }
+}
 
+/*RESPONSIVIDADE*/
+@media (min-width: 2800px){
+    .navbar{
+        font-size: 2.5em;
+        left: 56%;    
+    }
+    .apresentation-text{
+        font-size: 2.5em;
+    }
+    .word, h2{
+        font-size: 2.5em;
+    }
+    .definitions{
+        font-size: 2em;
+    }
+    #about{
+        width: 50%;
+        font-size: 2em;
+        min-width: 100%;
+    }
+    footer img{
+        width: 10%;
+    }
+    
+}
+
+@media (min-width: 2560px){
+    .definitions{
+        font-size: 2em;
+    }
+    #about{
+        width: 50%;
+        font-size: 2em;
+        min-width: 100%;
+    }
+    footer img{
+        width: 10%;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 2800px){
+    .navbar{
+        font-size: 1.8em;
+        left: 56%;    
+    }
+    .apresentation-text{
+        font-size: 1.8em;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1312px){
+    .navbar{
+        font-size: .9em;
+ 
+    }
+    .apresentation-text{
+        font-size: .9em;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 920px){
+    .apresentation-text{
+        font-size: .8em;
+    }
+    .letter-menu{
+        font-size: 1.4em;
+    }
+    footer img{
+        min-width: 35%;
+}
+    
+}
+
+@media (max-width: 720px){
+    .apresentation-text{
+        font-size: .6em;
+    }
+    footer img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 620px){
+    .apresentation-text{
+        font-size: .5em;
+    }
+    
+}
