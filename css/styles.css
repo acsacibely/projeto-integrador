@@ -317,3 +317,18 @@ footer .img{
     }
     
 }
+
+@media (max-width: 490px){
+    .apresentation-text{
+        font-size: .4em;
+    }
+    .letter-menu{
+        font-size: .7em;
+    }
+    .word, .concepts, h3{
+        font-size: 1em;
+    }
+    .concepts .row{
+        padding: 0;
+    }
+}
